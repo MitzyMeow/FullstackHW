@@ -1,0 +1,57 @@
+<html lang="en"><head><link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>my first webSite!</title>
+</head>
+<body>
+<header>
+    <nav>
+        <ul class="toolbar">
+            <li><a href=""> Home</a></li> |
+            <li><a href="">About me</a></li> |
+            <li><a href="">Contact me</a></li>
+            <li class="toolbar-Login"><a href="">Login</a></li>
+        </ul>
+    </nav>
+    <h1 class="title">This is my blog</h1>
+</header>
+<section class="psection">
+    <div class="post">
+        <h3 class="ptitle"> Blog post #1</h3>
+        <img src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12231413/Labrador-Retriever-MP.jpg" class="picture">
+        <div class="pcontat">My <strong>first blog post</strong> is all about my <span style="color:red">PUPPIES</span> and how to write new post about puppies in my <br> blog, you can find it <a href=""> here</a>.</div>
+        <div class="post-publish-data">Published 1 days ago by Daniella</div>
+    </div>
+    <div class="post">
+        <h3 class="ptitle">Blog post #2</h3>
+        <img src="https://dogtime.com/assets/uploads/2018/10/puppies-cover-1280x720.jpg" class="picture">
+        <div class="pcontat">My <strong>second blog post</strong> is all about my blog post.</div>
+        <div class="post-publish-data">Published 2 days ago by Joe</div>
+    </div>
+    <div class="post">
+        <h3 class="ptitle">Blog post #2</h3>
+        <img src="https://www.dogsandpuppies.co.uk/dogsandpuppies/uploads/headerimage/5b3b38037b8ff.jpeg" class="picture">
+        <div class="pcontat">My <strong>third blog post</strong> is all about my blog post.</div>
+        <div class="post-publish-data">Published 3 days ago by Israel</div>
+    </div>
+</section>
+<section class="list-section">
+    <div class="list">
+        <h3 class="list-title">Latest</h3>
+        <ul class="list-latest">
+            <li>Blog post #1 <a href=""> go to page </a></li>
+            <li>Blog post #2 <a href=""> go to page </a></li>
+            <li>Blog post #3 <a href=""> go to page </a></li>
+        </ul>
+    </div>
+    <hr> 
+    <div class="list">
+        <h3 class="list-title">Popular</h3>
+        <ul class="list-popular">
+        <li>Blog post #3 <a href=""> go to page </a></li>
+        <li>Blog post #1 <a href=""> go to page </a></li>
+        <li>Blog post #2 <a href=""> go to page </a></li>
+        </ul>
+    </div>
+</section>
+
+</body></html>
